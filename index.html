@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-11</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- start css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div>
+        <h2 class="mt-5">start with <span class="text-danger">forEach</span></h2>
+        <h4 id="demo" class="m-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, ex.</h4>
+        <button id="red" class=" ml-3" data-color="red">red</button>
+        <button id="green" class=" ml-3" data-color="green">green</button>
+        <button id="blue" class=" ml-3" data-color="blue">blue</button>
+    </div>
+
+    <div>
+        <h2>start with <span class="text-danger">onclick without forEach</span></h2>
+        <h4 id="demo1" class="m-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, ex.</h4>
+        <button id="red1" class="ml-3">red</button>
+        <button id="green1" class="ml-3">green</button>
+        <button id="blue1" class="ml-3">blue</button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-10">
+                <h4 class="text-center">To Do List</h4>                
+            </div>
+            <div class="col-md-10">                
+                <form onsubmit="return taskData()">
+                    <input type="text" name="text" placeholder="Enter Your noted" id="test" class="w-100 p-2" >
+                    <input type="submit" class="btn btn-outline-success w-100 mt-3" value="Enter">
+                </form>
+                <ol id="result">
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+
+
+
+
+
+
+
+    <!-- jquery js  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrab js  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+</body>
+</html>
